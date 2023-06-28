@@ -1,0 +1,18 @@
+{
+  "name": "test-practice",
+  "version": "1.0.0",
+  "description": "This GitHub repository serves as a practice project for learning and practicing unit testing in JavaScript using the Jest testing framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "transform": {
+    "\\.js$": "<rootDir>/node_modules/babel-jest"
+  }
+}
